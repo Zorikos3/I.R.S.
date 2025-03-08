@@ -26,6 +26,7 @@ I.R.S. is a powerful firmware for the M5Stick-C Plus that turns it into a univer
 - **Complete**: After sending IR codes, the device displays "Complete!" and waits for the next command.
 - **Auto-Dim**: If no buttons are pressed for 10 seconds, the screen brightness drops to 1%. Press any button to restore brightness.
 - **Deep Sleep**: If no buttons are pressed for 30 seconds, the device enters deep sleep mode. Press the **M5 button** to wake up.
+- **G26 IR TX Module**: With the **Next** button simply switch between modes! Built-IN IR or G26 Module.
 
 ## Credits
 - Developed by **Orpheas / Zorikos3**.
