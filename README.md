@@ -33,3 +33,16 @@ I.R.S. is a powerful firmware for the M5Stick-C Plus that turns it into a univer
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Flashing the Firmware
+1. Download the `IRS.bin` file from the [Releases](https://github.com/Zorikos3/I.R.S./releases) page.
+2. Use **M5Burner** or **esptool.py** to flash the `.bin` file to your M5Stick-C Plus.
+   - For **M5Burner**:
+     1. Open M5Burner and select your M5Stick-C Plus model.
+     2. Click **Burn** and select the `firmware.bin` file.
+     3. Follow the on-screen instructions.
+   - For **esptool.py**:
+     ```bash
+     esptool.py --port <PORT> --baud 115200 write_flash 0x10000 firmware.bin
+     ```
+     Replace `<PORT>` with your device's serial port.
